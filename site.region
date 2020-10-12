@@ -22,12 +22,9 @@
           </defs>
         </svg>
 
-        <!-- site title or logo -->
-        {.section website}
         <span class="nav-cta">
           {@|apply cta.block}
         </span class="nav-cta">
-        {.end}
       </header>
 
       <!-- cms content injection point -->
@@ -35,13 +32,10 @@
         <div class="banner">
           <div class="banner-content">
             <h1 class="banner-header">
-              Restoring<br>
-              our climate,<br>
-              together.
+              <squarespace:block-field id="banner-header-blocks" columns="12" />
             </h1>
             <p class="banner-subtext">
-              Carbon offset projects to help you <br>
-              live a carbon neutral life.
+              <squarespace:block-field id="banner-subtext-blocks" columns="12" />
             </p>
             {@|apply cta.block}
 
@@ -56,12 +50,11 @@
             </defs>
           </svg>
         </div>
-        {squarespace.main-content}
       </main>
 
       <!--Footer with open block field -->
       <footer class="site-footer">
-        <squarespace:block-field id="footerBlocks" columns="12" />
+        <squarespace:block-field id="footer-blocks" columns="12" />
       </footer>
 
     </div>
