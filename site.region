@@ -9,6 +9,8 @@
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
+    <p>Hello world!</p>
+
     <div class="site-container">
 
       <header class="site-header">
