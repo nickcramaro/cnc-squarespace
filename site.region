@@ -24,9 +24,9 @@
 
         <!-- site title or logo -->
         {.section website}
-          <button class="cta nav-cta" data-content-field="nav-cta">
-            Join the club
-          </button>
+        <span class="nav-cta">
+          {@|apply cta.block}
+        </span class="nav-cta">
         {.end}
       </header>
 
@@ -43,7 +43,7 @@
               Carbon offset projects to help you <br>
               live a carbon neutral life.
             </p>
-            <button class="cta">Join the club</button>
+            {@|apply cta.block}
 
           </div>
           <svg width="1439" height="675" viewBox="0 0 1439 675" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
