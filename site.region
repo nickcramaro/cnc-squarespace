@@ -25,7 +25,7 @@
         <!-- site title or logo -->
         {.section website}
           <button class="nav-cta" data-content-field="nav-cta">
-            {navCTA}
+            {squarespace.main-content}
           </button>
         {.end}
       </header>
