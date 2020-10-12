@@ -44,6 +44,9 @@
             </defs>
           </svg>
         </div>
+        <div class="section-1">
+          <squarespace:block-field id="section-1-blocks"/>
+        </div>
       </main>
 
       <!--Footer with open block field -->
