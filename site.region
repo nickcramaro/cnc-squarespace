@@ -31,14 +31,9 @@
       <main class="content-container" role="main" data-content-field="main-content">
         <div class="banner">
           <div class="banner-content">
-            <h1 class="banner-header">
-              <squarespace:block-field id="banner-header-blocks"/>
-            </h1>
-            <p class="banner-subtext">
-              <squarespace:block-field id="banner-subtext-blocks"/>
-            </p>
+            <squarespace:block-field id="banner-header-blocks"/>
+            <squarespace:block-field id="banner-subtext-blocks"/>
             {@|apply cta.block}
-
           </div>
           <svg width="1439" height="675" viewBox="0 0 1439 675" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <rect y="-31" width="1440" height="706" fill="url(#pattern0)"/>
