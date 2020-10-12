@@ -64,6 +64,15 @@
             </div>
           </div>
         </div>
+
+        <div class="section-3">
+          <div class="image-left">
+            <squarespace:block-field id="image-left-blocks"/>
+          </div>
+          <div class="text-right">
+            <squarespace:block-field id="text-right-blocks"/>
+          </div>
+        </div>
       </main>
 
       <!--Footer with open block field -->
