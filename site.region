@@ -9,9 +9,9 @@
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
-    <div class="site-container">
+    <div class="container">
 
-      <header class="site-header">
+      <header class="header">
         <svg width="157" height="68" viewBox="0 0 157 68" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <rect width="156.579" height="68" fill="url(#logo-pattern)"/>
           <defs>
@@ -22,15 +22,16 @@
           </defs>
         </svg>
 
-        <span class="nav-cta">
+        <span class="header__cta">
           {@|apply cta.block}
-        </span class="nav-cta">
+        </span>
       </header>
 
-      <!-- cms content injection point -->
       <main class="content-container" role="main" data-content-field="main-content">
+
+        <!-- top banner -->
         <div class="banner">
-          <div class="banner-content">
+          <div class="banner__content">
             <squarespace:block-field id="banner-blocks"/>
             {@|apply cta.block}
           </div>
@@ -45,12 +46,14 @@
           </svg>
         </div>
 
-        <div class="section-1">
-          <squarespace:block-field id="section-1-blocks"/>
+        <!-- large centered text -->
+        <div class="section-text">
+          <squarespace:block-field id="section-text-1-blocks"/>
         </div>
 
-        <div class="section-2">
-          <squarespace:block-field id="section-2-blocks"/>
+        <!-- section with tiles -->
+        <div class="section-tiles">
+          <squarespace:block-field id="section-tiles-blocks"/>
 
           <div class="tile-row">
             <div class="tile">
@@ -65,18 +68,30 @@
           </div>
         </div>
 
-        <div class="section-3">
-          <div class="image-left">
+        <!-- 50/50 split section -->
+        <div class="section-split">
+          <div class="section-split__left">
             <squarespace:block-field id="image-left-blocks"/>
           </div>
-          <div class="text-right">
+          <div class="section-split__right">
             <squarespace:block-field id="text-right-blocks"/>
           </div>
         </div>
+
+        <!-- large centered text with cta -->
+        <div class="section-text">
+          <squarespace:block-field id="section-text-2-blocks"/>
+        </div>
+
+        <!-- final cta -->
+        <div class="section-final-cta">
+          <squarespace:block-field id="section-final-cta-blocks"/>
+        </div>
+
       </main>
 
       <!--Footer with open block field -->
-      <footer class="site-footer">
+      <footer class="footer">
         <squarespace:block-field id="footer-blocks" columns="12" />
       </footer>
 

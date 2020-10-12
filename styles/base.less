@@ -2,7 +2,12 @@
 /* CSS pre-processing by {less}. http://lesscss.org/
 ***************************************************/
 
-
+/* Variables
+***************************************************/
+@off-white: #FAF4ED;
+@dark-blue: #101340;
+@light-blue: #1D60D8;
+@pink: #f9c;
 
 /* General syles
 ***************************************************/
@@ -14,7 +19,7 @@ body {
     sans-serif;
   font-size: 100%;
   font-weight: normal;
-  background-color: #FAF4ED;
+  background-color: @off-white;
 }
 
 p {
@@ -37,19 +42,23 @@ h3 {
   line-height: 48px;
 }
 
-.site-container {
+.container {
   line-height: 1.6em;
-  color:#101340;
+  color: @dark-blue;
   max-width: 1440px;
   margin: auto;
 }
 
-.site-header {
+.header {
   padding: 20px 120px;
+
+  &__cta {
+    float: right;
+  }
 }
 
 .cta {
-  background: #f9c;
+  background: @pink;
   height: 60px;
   border-radius: 255px;
   border: 0px;
@@ -59,18 +68,14 @@ h3 {
   padding: 0 28px;
 }
 
-.nav-cta {
-  float: right;
-}
-
 .banner {
   position: relative;
-}
 
-.banner-content {
-  position: absolute;
-  top: 90px;
-  left: 120px;
+  &__content{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+  }
 }
 
 #banner-blocks {
@@ -108,59 +113,39 @@ h3 {
   }
 }
 
-.section-3 {
-}
+.section-split {
+  &__left {
+    float: left;
 
-.image-left {
-  float: left;
+    img {
+      display: block;
+    }
+  }
 
-  img {
-    display: block;
+  &__right {
+    margin-left: 50%;
+    color: @off-white;
+    background-color: @light-blue;
+    padding: 120px;
+    
+    h2 {
+      font-weight: bold;
+      font-size: 44px;
+      line-height: 72px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 36px;
+    }
   }
 }
 
-.text-right {
-  margin-left: 50%;
-  color: #FAF4ED;
-  background-color: #1D60D8;
-  padding: 120px;
-  
-  h2 {
-    font-weight: bold;
-    font-size: 44px;
-    line-height: 72px;
-  }
-
-  p {
-    font-size: 18px;
-    line-height: 36px;
-  }
-}
-
-.site-footer {
+.footer {
   font-size: 75%;
   margin-top: 4vw;
   margin-bottom: 4vw;
 }
-
-/* Homepage
-***************************************************/
-
-body.homepage { }
-
-
-
-/* Blog list
-***************************************************/
-
-body.collection-type-blog.view-list {
-
-  .blog-list-item + .blog-list-item {
-    margin-top: 3vw;
-  }
-}
-
-
 
 /* Break grid and stack blocks on small screens
 ***************************************************/
