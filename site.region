@@ -44,8 +44,25 @@
             </defs>
           </svg>
         </div>
+
         <div class="section-1">
           <squarespace:block-field id="section-1-blocks"/>
+        </div>
+
+        <div class="section-2">
+          <squarespace:block-field id="section-2-blocks"/>
+
+          <div class="tile-row">
+            <div class="tile">
+              <squarespace:block-field id="tile-1-blocks"/>
+            </div>
+            <div class="tile">
+              <squarespace:block-field id="tile-2-blocks"/>
+            </div>
+            <div class="tile">
+              <squarespace:block-field id="tile-3-blocks"/>
+            </div>
+          </div>
         </div>
       </main>
 
