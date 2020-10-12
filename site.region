@@ -32,10 +32,10 @@
         <div class="banner">
           <div class="banner-content">
             <h1 class="banner-header">
-              <squarespace:block-field id="banner-header-blocks" columns="12" />
+              <squarespace:block-field id="banner-header-blocks"/>
             </h1>
             <p class="banner-subtext">
-              <squarespace:block-field id="banner-subtext-blocks" columns="12" />
+              <squarespace:block-field id="banner-subtext-blocks"/>
             </p>
             {@|apply cta.block}
 
