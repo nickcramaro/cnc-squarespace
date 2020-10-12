@@ -8,7 +8,7 @@
 ***************************************************/
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont,
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -22,71 +22,55 @@ body {
   color:#101340;
   max-width: 1440px;
   margin: auto;
-
-  h1, h2, h3 {
-    font-weight: normal;
-    line-height: 1.2em;
-  }
-
-  a {
-    color: cornflowerblue;
-
-    &.disabled {
-      color: #ccc;
-    }
-  }
 }
 
 .site-header {
-  padding: 20px;
+  padding: 20px 120px;
 }
 
-.site-navigation { }
-
-.site-navigation-list {
-  padding: 0;
-}
-
-.site-navigation-item {
-  display: inline-block;
-  font-size: 87.5%;
-
-  & + .site-navigation-item {
-    margin-left: 1em;
-  }
-
-  a {
-    color: #111;
-    text-decoration: none;
-
-    &:hover {
-      color: #999;
-    }
-  }
-
-  &.active-link > a {
-    color: #999;
-  }
-
-}
-
-.nav-cta {
+.cta {
   background: #f9c;
-  float: right;
   height: 60px;
   border-radius: 255px;
   border: 0px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  padding: 0 28px;
 }
 
-.content-container { }
+.nav-cta {
+  float: right;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  top: 90px;
+  left: 120px;
+}
+
+.banner-header {
+  font-weight: bold;
+  font-size: 66px;
+  line-height: 76px;
+  color: white;
+}
+
+.banner-subtext {
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
 
 .site-footer {
   font-size: 75%;
   margin-top: 4vw;
   margin-bottom: 4vw;
 }
-
-
 
 /* Homepage
 ***************************************************/
