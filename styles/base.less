@@ -120,18 +120,16 @@ p {
 }
 
 .section-split {
+  display: flex;
   &__left {
-    float: left;
-
-    img {
-      display: block;
-    }
+    width: 30%;
+    max-width: 30%;
+    background-color: @middle-blue;
   }
 
   &__right {
-    margin-left: 50%;
     background-color: @white;
-    padding: 120px;
+    padding-left: 80px;
   }
 }
 
