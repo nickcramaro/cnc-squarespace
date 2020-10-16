@@ -2,7 +2,9 @@
 
       <!--Footer with open block field -->
       <footer class="footer">
+        <img src="assets/logo.svg" alt="Carbon Neutral Club logo" />
         <squarespace:block-field id="footer-blocks" columns="12" />
+        <div class="social-container"></div>
       </footer>
 
     </div>

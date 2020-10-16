@@ -122,15 +122,24 @@ p {
 .section-split {
   display: flex;
   &__left {
-    width: 30%;
-    max-width: 30%;
-    background-color: @middle-blue;
+    background-image: url('/assets/mountains-bike.svg');
+    background-size: cover;
+    height: 788px;
+    width: 681px;
   }
 
   &__right {
+    flex-grow: 1;
     background-color: @white;
     padding-left: 80px;
   }
+}
+
+.footer {
+  display: flex;
+  height: 130px;
+  background-color: @white;
+  padding: 0 120px;
 }
 
 /* Break grid and stack blocks on small screens
