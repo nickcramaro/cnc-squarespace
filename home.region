@@ -44,8 +44,3 @@
 <div class="section-text">
   <squarespace:block-field id="section-text-2-blocks"/>
 </div>
-
-<!-- final cta -->
-<div class="section-final-cta">
-  <squarespace:block-field id="section-final-cta-blocks"/>
-</div>
