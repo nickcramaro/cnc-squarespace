@@ -7,6 +7,17 @@
         <div class="social-container"></div>
       </footer>
 
+      <!-- The Modal -->
+      <div id="contact-modal" class="modal">
+        
+        <!-- Modal content -->
+        <div class="modal__content">
+          <span class="close">&times;</span>
+          <squarespace:block-field id="modal-blocks" columns="12" />
+        </div>
+
+      </div>
+
     </div>
 
     <!-- combo and minify scripts when not logged in -->
