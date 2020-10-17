@@ -5,7 +5,6 @@
     <squarespace:block-field id="banner-blocks"/>
     {@|apply cta.block}
   </div>
-  <img src="assets/mountains-sunrise.svg" alt="Sunrise appearing over mountains" />
 </div>
 
 <!-- large centered text -->
