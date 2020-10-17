@@ -320,6 +320,9 @@ p {
   .section-split {
     &__right {
       padding: 60px;
+      br {
+        display: none;
+      }
     }
   }
 
@@ -418,6 +421,9 @@ p {
     h1 {
       .large-paragraph();
     }
+    br {
+      display: none;
+    }
   }
 
   .section-tiles {
@@ -443,14 +449,6 @@ p {
   }
 }
 
-@media all and (max-height: 860px) {
-  .modal {
-    padding-top: 10px;
-
-
-  }
-}
-
 @media all and (max-width: 480px) {
   .section-text {
     margin: 0 30px;
@@ -469,5 +467,11 @@ p {
     &__right {
       padding: 60px 30px;
     }
+  }
+}
+
+@media all and (max-height: 860px) {
+  .modal {
+    padding-top: 10px;
   }
 }
