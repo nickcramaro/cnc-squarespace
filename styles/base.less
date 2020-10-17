@@ -159,6 +159,10 @@ p {
     flex-grow: 1;
     background-color: @white;
     padding: 120px 80px;
+
+    #text-right-blocks {
+      width: 500px;
+    }
   }
 }
 
@@ -319,9 +323,11 @@ p {
 
   .section-split {
     &__right {
-      padding: 60px;
       br {
         display: none;
+      }
+      #text-right-blocks {
+        width: 350px;
       }
     }
   }
@@ -343,6 +349,12 @@ p {
 
   .section-tiles {
     margin: 0 120px;
+  }
+
+  .section-split {
+    &__right {
+      padding: 120px 60px;
+    }
   }
 
   .footer {
@@ -438,6 +450,11 @@ p {
       background-repeat: no-repeat;
       width: auto;
       height: 480px;
+    }
+    &__right {
+      #text-right-blocks {
+        width: 100%;
+      }
     }
   }
 
