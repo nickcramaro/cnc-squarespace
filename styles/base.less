@@ -167,6 +167,12 @@ p {
   height: 130px;
   background-color: @white;
   padding: 0 120px;
+  position: relative;
+
+  &__logo {
+    position: absolute;
+    top: 35px;
+  }
 }
 
 #footer-blocks {
@@ -236,6 +242,19 @@ p {
 
   .section-tiles {
     margin: 0 120px;
+  }
+
+  .footer {
+    flex-direction: column;
+  
+    &__logo {
+      margin: 40px 0;
+      position: unset;
+    }
+  }
+
+  #footer-blocks {
+    margin-bottom: 40px;
   }
 }
 
