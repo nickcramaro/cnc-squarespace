@@ -209,19 +209,64 @@ p {
     background-color: @beige;
     border-radius: 10px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px 30px;
     width: 585px;
     min-height: 100px;
     position: relative;
     animation: entertop 0.4s;
+
+    h3 {
+      padding-top: 40px;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-top: 0;
+    }
+
+    label.title {
+      font-size: 14px;
+    }
+
+    div.field {
+      margin: 0 0 12px !important;
+    }
+
+    span.required {
+      display: none;
+    }
+
+    input[type=text], input[type=email], textarea {
+      border: 2px solid #F4E8D9 !important;
+      border-radius: 8px !important;
+    }
+
+    input[type=submit] {
+      float: right !important;
+      background: @pink !important;
+      height: 60px !important;
+      border-radius: 255px !important;
+      border: 0px !important;
+      font-weight: bold !important;
+      font-size: 18px !important;
+      line-height: 36px !important;
+      padding: 0 28px !important;
+      color: black !important;
+      text-transform: capitalize !important;
+      width: 161px;
+      &:hover {
+        background-color: @pink-hover !important;
+      }
+    }
   }
 }
 
 .close {
   color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  right: 25px;
+  top: 8px;
 
   &:hover, &:focus {
     color: black;
@@ -386,6 +431,13 @@ p {
       background-repeat: no-repeat;
       width: auto;
       height: 480px;
+    }
+  }
+
+  .modal {
+    padding-top: 10px;
+    &__content {
+      width: 80%;
     }
   }
 }
