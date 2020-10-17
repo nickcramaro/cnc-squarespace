@@ -213,6 +213,7 @@ p {
     min-height: 100px;
     position: relative;
     animation: entertop 0.4s;
+    overflow-y: auto;
 
     h3 {
       padding-top: 40px;
@@ -437,6 +438,14 @@ p {
     &__content {
       width: 80%;
     }
+  }
+}
+
+@media all and (max-height: 860px) {
+  .modal {
+    padding-top: 10px;
+
+
   }
 }
 
