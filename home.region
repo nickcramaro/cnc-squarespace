@@ -51,4 +51,5 @@
 <!-- large centered text with cta -->
 <div class="section-text">
   <squarespace:block-field id="section-text-2-blocks"/>
+  {@|apply cta2.block}
 </div>
