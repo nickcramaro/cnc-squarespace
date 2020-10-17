@@ -19,12 +19,21 @@
 
   <div class="tile-row">
     <div class="tile">
+      <div class="image-container">
+        <img src="assets/calculate.svg" />
+      </div>
       <squarespace:block-field id="tile-1-blocks"/>
     </div>
     <div class="tile">
+      <div class="image-container"> 
+        <img src="assets/offset.svg" />
+      </div>
       <squarespace:block-field id="tile-2-blocks"/>
     </div>
     <div class="tile">
+      <div class="image-container">
+        <img src="assets/benefit.svg" />
+      </div>
       <squarespace:block-field id="tile-3-blocks"/>
     </div>
   </div>
